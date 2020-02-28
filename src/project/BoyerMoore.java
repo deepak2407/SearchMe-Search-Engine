@@ -6,7 +6,7 @@ public class BoyerMoore {
 
     private char[] pattern;  // store the pattern as a character array
     private String pat;      // or as a string
-
+    
     // pattern provided as a string
     public BoyerMoore(String pat) {
         this.R = 10000;
